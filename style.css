@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {     margin: 0;     padding: 0;     border: 0;     font-size: 100%;     font: inherit;     vertical-align: baseline; } article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section {     display: block; } html {     height: 100%; } body {     line-height: 1; } ol, ul {     list-style: none; } blockquote, q {     quotes: none; } blockquote:before, blockquote:after, q:before, q:after {     content: '';     content: none; }
+body{
+    background-color: #1c1c1c;
+    overflow-x: hidden;
+
+}
+h1{
+    font-family: "Proxima Nova"; 
+}
+.header 
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.logo
+{
+    width: 193px;
+    height: 89px;
+    padding-left: 100px;
+    padding-bottom: 55px;
+    cursor: pointer;
+}
+
+.nav
+{
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.nav__link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 63px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Proxima Nova';
+    transition: color .2s linear;
+    text-transform: bold;
+}
+
+.nav__link:hover
+{
+    color: #C5B27D;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking {
+display: inline-block;
+background: transparent;
+color: #fff;
+padding: 12px;
+border: solid #C5B27D;
+font-family: "Proxima Nova";
+font-size: 18px;
+line-height: 1;
+font-weight: 100;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: bold;
+margin-right: 100px;
+transition: background-color .2s linear;
+}
+.booking:hover {
+    
+    display: inline-block;
+    background: #C5B27D ;
+    padding: 12px;
+    border: solid #C5B27D;
+    line-height: 1;
+    cursor: pointer;
+}
+.car{
+    margin-top: 40px;
+    position: relative;
+}
+.mainText{
+    text-transform: uppercase;
+    color:#C5B27D ;
+    margin-top: 355px ;
+    font-size: 90px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.background{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+}
+.links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.icons{
+    background-color: aqua;
+}
+.products{
+    
+}
+@font-face {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Proxima Nova"),
+}
